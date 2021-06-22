@@ -1,0 +1,57 @@
+.flex-column {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.pop-box {
+  padding: 15px;
+  display: table;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.noselect {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Border colors */
+
+.full-border {border-color: #ffffff!important;}
+
+.high-border {border-color: #d9d9d9!important;}
+
+.medium-border {border-color: #999!important;}
+
+.low-border {border-color: #595959!important;}
+
+/* Colors */
+
+.full-color {color: #ffffff!important;}
+
+.high-color, body {color: #d9d9d9!important;}
+
+.medium-color {color: #999!important;}
+
+.low-color {color: #595959!important;}

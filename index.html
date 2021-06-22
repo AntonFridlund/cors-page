@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CORS</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" type="text/css" href="helpers.css"/>
+        <link rel="stylesheet" type="text/css" href="blue-theme.css"/>
+    </head>
+    <body class="flex-column">
+        <div id="header" class="light-bg low-border relative">
+            <a id="logo" class="flex-column absolute high-color noselect" href="#">
+                <span>CORS</span>
+                <span>PAGE</span>
+            </a>
+            <div id="header-container" class="container-size flex-row">
+                <div id="nav-bar" class="flex-row">
+                    <a href="#" class="dark-bg low-border tab-button active full-color"><span>Home</span></a>
+                    <a href="#" class="tab-button high-color"><span>Profile</span></a>
+                    <div class="dropcheck-wrapper">
+                        <input type="checkbox" id="dropcheck">
+                        <label for="dropcheck" class="dropcheck-label nowrap noselect tab-button">
+                        <span>More</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24">
+                            <path fill="#fff" d="M0 7.33 2.829 4.5l9.175 9.339L21.171 4.5 24 7.33 12.004 19.5z"/>
+                        </svg>
+                        </label>
+                        <div id="nav-dropcheck" class="light-bg low-border dropcheck-content-wrapper">
+                            <div class="flex-column">
+                                <h3 class="nowrap">Here is some text</h3>
+                                <button class="option">Test1</button>
+                                <button class="option">Test2</button>
+                                <button class="option">Test3</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container" class="dark-bg container-size">
+            <div class="content-container flex-row">
+                <div class="light-bg pop-box">
+                    <div class="flex-column">
+                        This is a pop-box!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="light-bg low-border flex-row">
+            <div id="footer-container" class="container-size"></div>
+        </div>
+    </body>
+</html>
